@@ -1,7 +1,7 @@
 
     
     // Simple way to get a call with json response
-    // Necessary import jquery-3.3.1.min.js
+    // Necessary import jquery-3.3.1.min.js 
 
     $.ajax({
 		url : "http://echo.jsontest.com/nome/henrique/sobrenome/lages",
