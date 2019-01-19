@@ -2,7 +2,7 @@
 
 var numbers_one         = [1,2,3];
 var numbers_two         = [1,2,3,4,6];
-var equal_numbers    = [];
+var equal_numbers       = [];
 
 for (i in numbers_one){        
 
