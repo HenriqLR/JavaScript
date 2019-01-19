@@ -2,7 +2,7 @@
 
 var numbers_one         = [1,2,3];
 var numbers_two         = [1,2,3,4,6];
-var numbers_combined    = [];
+var equal_numbers    = [];
 
 for (i in numbers_one){        
 
@@ -16,13 +16,13 @@ for (i in numbers_one){
         
     if(tst_hora != null){
 
-        numbers_combined.push(tst_hora);
+        equal_numbers.push(tst_hora);
         tst_hora = null;
     }
 
     else{
     
-        numbers_combined.push(numbers_one[i]);
+        equal_numbers.push(numbers_one[i]);
     
     };
 
@@ -30,4 +30,4 @@ for (i in numbers_one){
 
 console.log(numbers_one);
 console.log(numbers_two);
-console.log(numbers_combined);
+console.log(equal_numbers);
