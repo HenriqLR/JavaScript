@@ -9,6 +9,9 @@
 		
 	}).done(function(data){        
         
+
+        //Sometimes you will need to use JSON.parse() to read de values, in this casse the response is a JavaScript object
+
         var ajax_call_data = data;
         console.log(ajax_call_data);
         
