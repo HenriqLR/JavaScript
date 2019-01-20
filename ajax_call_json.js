@@ -9,7 +9,7 @@
 		
 	}).done(function(data){        
         
-        //Sometimes you will need to use JSON.parse() to read the values, in this casse the response is a JavaScript object
+        //Sometimes you will need to use JSON.parse() to read the values, in this case the response is a JavaScript object
 
         var ajax_call_data = data;
         console.log(ajax_call_data);
