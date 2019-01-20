@@ -16,9 +16,9 @@
         
         var name = ajax_call_data.nome;  
         
-        var midlename = ajax_call_data.sobrenome;
+        var middlename = ajax_call_data.sobrenome;
 
-        console.log(name + " " + midlename);          
+        console.log(name + " " + middlename);          
                
 	});
 
